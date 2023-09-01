@@ -1,2 +1,2 @@
 # Yandex Search Engine Firefox
-Yandex Text/Image Search Engine for Firefox 55.0+
+// Yandex Text/Image Search Engine for Firefox 55.0+ via [.xpi] file.
