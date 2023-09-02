@@ -3,28 +3,30 @@
   
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "version": "1.0",
+  "version": "69.96",
   
   "author": "Essence6996",
   "homepage_url": "https://github.com/Essence6996/YandexSearchEngineFirefox/",
   
-  "default_locale": "ru_RU",
+  "default_locale": "en_US",
   
-  "permissions": [
-    "menus",
-    "storage"
-  ],
-  
-  "icons": {
-	"48": "icons/yandex.svg",
-	"96": "icons/yandex.svg"
-  },
-  
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "YandexSearchEngine@Essence6996"
 	}
-  },  
+  }, 
+  
+  "icons": {
+	"48": "icons/yandex.svg"
+  },
+  
+  "permissions": [
+    "menus",
+    "storage",
+	"search",
+    "*://yandex.ru/search/*",
+    "*://yandex.com/search/*"
+  ], 
   
     "options_ui": {
     "page": "options.html",
@@ -40,8 +42,8 @@
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "__MSG_extensionName__",
-      "keyword": "@yandex",
-      "search_url": "https://yandex.ru/search/?text={searchTerms}&lang=ru"
+      "keyword": "@ya",
+	  "search_url": "https://__MSG_extensionTextUrl__/search/?text={searchTerms}"
     }
   }
 }

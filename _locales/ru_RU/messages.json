@@ -13,5 +13,13 @@
 
 	"lblOpenInBackground": {
 		"message": "Не переключаться на вкладку поиска картинки."
+	},
+	
+	"extensionTextUrl": {
+		"message": "yandex.ru"
+	},
+	
+	"extensionImageUrl": {
+		"message": "https://yandex.ru/images/search?rpt=imageview&url="
 	}
 }

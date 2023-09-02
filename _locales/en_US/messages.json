@@ -1,0 +1,25 @@
+{
+	"extensionName": {
+		"message": "Search in Yandex"
+	},
+
+	"extensionDescription": {
+		"message": "The extension adds search in Yandex by text or picture. Don't forget to change the search engine in your browser settings after installing the extension. Right-click on the image to search for similar or different sized pictures."
+	},
+
+	"actionSearchImage": {
+		"message": "Search by Image in Yandex"
+	},
+
+	"lblOpenInBackground": {
+		"message": "Don't switch to the image-search tab."
+	},
+	
+	"extensionTextUrl": {
+		"message": "yandex.com"
+	},
+	
+	"extensionImageUrl": {
+		"message": "https://yandex.com/images/search?rpt=imageview&url="
+	}
+}
