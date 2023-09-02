@@ -23,9 +23,7 @@
   "permissions": [
     "menus",
     "storage",
-	"search",
-    "*://yandex.ru/search/*",
-    "*://yandex.com/search/*"
+    "search"
   ], 
   
     "options_ui": {
