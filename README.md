@@ -2,4 +2,5 @@
 
 ### https://addons.mozilla.org/ru/firefox/addon/search-in-yandex/
 
-// Yandex Text/Image Search Engine for Extension Firefox. (source code)
+// Yandex Text/Image Search Engine for Firefox. (source code)
+// Original **.xpi** in Release
